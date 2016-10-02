@@ -30,3 +30,5 @@ number_of_credits = []
 end
 
 number_of_credits.each {|i| puts "Credits are: #{i}"}
+
+#refine git commit message
