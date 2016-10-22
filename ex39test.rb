@@ -16,22 +16,22 @@ cities = Dict.new()
 
 	#add some more cities
 	Dict.set(cities, 'NY', 'New York')
-	Dict.set (cities, 'OR', 'Portland')
+	Dict.set(cities, 'OR', 'Portland')
 
 
 	#puts out some cities
-	put '-' * 10
-	put "NY State has #{Dict.get(cities, 'NY')}"
+	puts '-' * 10
+	puts "NY State has #{Dict.get(cities, 'NY')}"
 	puts "OR State has:#{Dict.get(cities, 'OR')}"
 
 	#puts some states
-	put '-' * 10
+	puts '-' * 10
 	puts "Michigan's abbreviation is: #{Dict.get(states, 'Michigan')}"
 	puts "Florida's abbreviation is:#{Dict.get(states,'Florida')}"
 	
 	# do it by using the state then cities dict
 	puts '-' * 10 
-	puts "Michigan has:#{Dict.get(cites,Dict.get(states, 'Michigan'))}"
+	puts "Michigan has:#{Dict.get(cities,Dict.get(states, 'Michigan'))}"
 	puts "Florida has #{Dict.get(cities,Dict.get(states, 'Florida'))}"
 
 	#puts every state abbreviation
