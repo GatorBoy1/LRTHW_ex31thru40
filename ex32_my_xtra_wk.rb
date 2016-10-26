@@ -2,33 +2,34 @@ num_count = [1,2,3,4,5,6,7,8,9]
 cars_select = ['Toyota', 'Ford', 'Chevy', 'Suburu', 'Chrysler']
 grocer_shop = [2, 'apples', 5, 'pears', 10, 'melons']
 
-puts "____traditional______"
 
-for number in num_count
-	puts "From num_count array: #{num_count}."
-end
-
-
-
-
-puts " ________Ruby Style________"
+puts "____________next___________"
 
 cars_select.each do |car|
-	puts "From fruits array, type: #{car}"
+	puts "And now for this year's model: #{car}"
 end
 
-puts "_______mised lists_______"
+puts "____________next___________"
 
-grocer_shop.each {|i| puts "From grocer array: Iv\'e got #{i}"}
-
-puts"__________range operators________"
-
-number_of_credits = []
-(0..9).each do |i| 
-	puts "Now adding #{i} to the list"
-	number_of_credits.push(i)
+num_count.each do |count_out|
+	puts "And now #{count_out} is the next number."
 end
 
-number_of_credits.each {|i| puts "Credits are: #{i}"}
 
-#refine git commit message
+
+puts "____________next___________"
+
+grocer_shop.each do |item|
+	puts "This is grocery item:#{item}."
+end
+
+grocer_shop.each{|m| puts "Friggin Grocery Item:#{m}."}
+
+
+puts "____________next___________"
+
+shanklins_stuff = []
+(0..3).each do |n|
+puts "adding num #{n}to Shanklin array"
+shanklins_stuff.push(n)
+end
