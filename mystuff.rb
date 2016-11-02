@@ -5,7 +5,6 @@ module MyStuff
 	end
 
 	#this is just a variable
-	TANGERINE = "Living relflections of a dream"
-
+	TANGERINE = "Living reflections of a dream"  	
+	
 end
-
